@@ -1,0 +1,8 @@
+.menu {
+    width: 100%;
+    padding: 28px 8%;
+    top: 0;
+    background-color: var(--color-primary-2);
+    position: sticky;
+    z-index: 3;
+}
