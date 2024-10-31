@@ -2,17 +2,19 @@
 
 @import url('menu.css');
 
+@import url('home.css');
+
 :root {
     --color-primary-1: #fff9ea;
     --color-primary-2: #ffe8b4;
     --color-primary-3: #f8d477;
     --color-primary-4: #ffe100;
-    --color-primary-5: #e9a209;
+    --color-primary-5: #ffcb45;
+    --color-primary-6: #e9a209;
+
     --color-neutra-0: #fff;
     --color-neutra-1: #1d1d1d;
 }
-
-
 
 * {
     margin: 0;
@@ -23,4 +25,17 @@
 
 section {
     padding: 28px 8%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-padrao {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-5);
+    border-radius: 12px;
 }
