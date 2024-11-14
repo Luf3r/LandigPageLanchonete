@@ -3,6 +3,7 @@
 @import url("../Styles/menu.css");
 @import url("../Styles/home.css");
 @import url("../Styles/cardapio.css");
+@import url("../Styles/depoimentos.css");
  
 :root{
     --color-primary-1: #fff9ea;

@@ -45,3 +45,17 @@
     top: -10px;
     border-radius: 0px 37.5px 0px 42.5px;
 }
+
+.card-heart:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.card-title {
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.card-rate i {
+    color: var(--color-primary-6);
+}
